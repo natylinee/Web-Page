@@ -1,0 +1,106 @@
+body{
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0;
+    
+}
+.container{
+    box-shadow: 0 0 20px rgb(84, 84, 236);
+    width: 1100px;
+    margin: 0 auto 0 auto;
+    background-color: rgba(179, 180, 191, 0.578);
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 28px;
+    
+    
+}
+h3{
+    margin-top: 5px;
+}
+span{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 70px rgb(119, 164, 52);
+}
+
+header{
+    padding: 20px 60px 20px 60px;
+    display: flex; /*upycha elementy w poziomie*/
+    align-items: center;
+    
+
+}
+section{
+    padding: 10px 60px 20px 60px;
+}
+
+li{
+    margin-bottom: 10px;
+    
+}
+
+address{
+    width: 680px;
+}
+address ul{
+    padding-left: 0px;
+}
+div{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.adress-icon{
+    width: 16px;
+    height: 16px;
+    background-color: cadetblue;
+    margin-right: 10px;
+    padding: 4px;
+    vertical-align: middle;
+}
+.circle{
+    border-radius: 50%; /*zaokrągla krawędzie*/
+}
+.profile-picture
+{
+    
+    width: 250px;
+    height: 170px;
+    
+}
+.hobbies{
+    list-style: none; /*usuwa kropli w liście*/
+    padding: 0px;
+    display: flex; /*upycha elementy w poziomie*/
+    flex-wrap: wrap; /*zawija elementy pod siebie, po to by width 50% mogło zadziałąć*/
+    
+}
+.hobbies li{
+    width: 45%; /*50% szerokości strony*/
+    display: flex;
+    box-shadow: 0 0 20px rgb(108, 108, 236);
+    /*width: 33.3% miejsce na 3 elementy w poziomie na stronie*/
+    align-items: flex-start; /*rozciągnięcie el. w pionie start od góry*/
+    margin-bottom: 40px;
+    margin-right: 40px;
+    border: 2px solid black;
+    border-radius: 3%;
+    transition: background-color 0.5s, color 0.5s;
+    
+}
+
+.hobbies :hover{ /*reakcja na najechanie myszką*/
+
+    background-color: rgb(90, 91, 91);
+    color: white;
+}
+.hobbies :active{
+    text-decoration: underline; /*podkreślenie liku gdy przytrzymamy go*/
+}
+
+p{
+    line-height: 1.5; /*wysokość lini ma być 1.5 większa niż czcionka typu p*/
+}
